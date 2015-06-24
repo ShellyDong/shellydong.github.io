@@ -22,7 +22,7 @@
 
 
 
-  <meta name="keywords" content="Blog,Git,Hexo," />
+  <meta name="keywords" content="Plan," />
 
 
 
@@ -47,7 +47,7 @@
 
 
 
-  <title> 如何使用Hexo+Github构建博客 // Shelly's Blog </title>
+  <title> 写在2015年已经过去了一半的时候 // Shelly's Blog </title>
 </head>
 
 <body>
@@ -150,7 +150,7 @@
           
           
             
-              如何使用Hexo+Github构建博客
+              写在2015年已经过去了一半的时候
             
           
         </h1>
@@ -158,7 +158,7 @@
 
       <div class="post-meta">
         <span class="post-time">
-          發表於 2015-06-23
+          發表於 2015-06-24
         </span>
 
         
@@ -186,20 +186,32 @@
       
 
       
-        <p>  终于有自己的博客了，记录一下小窝诞生的过程吧~  </p>
-<h2 id="建站流程">建站流程</h2><h4 id="1-_安装git">1. 安装git</h4><h4 id="2-_安装node-js">2. 安装<a href="https://nodejs.org/download/" target="_blank" rel="external">node.js</a></h4><h4 id="3-_安装hexo">3. 安装hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure>
-<h4 id="4-_创建Repository">4. 创建Repository</h4><h6 id="以下方式二选一">以下方式二选一</h6><ul>
-<li>建立一个 username.github.com 的repo，username为你的github用户名，每个用户只能有一个这样的repo，则直接发布到master分支即可。</li>
-<li>建立一个项目repo，发布的branch是gh-pages.<h6 id="自定义域名">自定义域名</h6></li>
-<li>如果你用自定义域名的话，github pages需要你建立一个名称为CNAME的文件，里面放入你的域名地址。如我的CNAME文件.</li>
-<li>因为每次deploy的时候hexo都会重新生成文件，所以直接加在github是不好使的，这个文件需要放在 hexo folder/source文件夹根目录下。</li>
+        <p><img src="http://society.yunnan.cn/images/attachement/jpg/site2/20120817/001cc435601d11985c4b0f.jpg" alt=""></p>
+<h2 id="在年中，回望">在年中，回望</h2><p>又是半年过去。</p>
+<p>这半年从武汉到广州，从.NET到Android，可以用动荡来形容。所幸随着时间的流逝，一切渐渐恢复平静。原本计划在这半年里要做的事情都被打乱，计划赶不上变化，也给我带来了一个新的课题，如何在动荡中保持计划的平稳进行。人生总是充满了不期而至的约会，我们要如何才能把握自己的节奏。我想答案只有一个：早起。在一天开始之前便结束计划中要做的事情，剩下的时间再留给琐碎的生活吧。</p>
+<p>既是回望，那便不能不说说这半年来的收获了。</p>
+<ul>
+<li>豆瓣已读达到100</li>
+<li>恢复RSS订阅，保证零碎阅读时间</li>
+<li>架设博客（没错，就是这个博客了）以及学会使用markdown语法写作</li>
+<li>看完公开课《公正》、《聆听音乐》</li>
+<li><p>Android入门达成</p>
+<h2 id="年终，未为远">年终，未为远</h2><p>下半年的主要任务是学习。<br>年终目标如下：</p>
+</li>
+<li><p>新概念英语第三册全本课文背诵+默写</p>
+</li>
+<li>豆瓣已读达到120</li>
+<li>Android<ul>
+<li>掌握快速开发框架</li>
+<li>构建自己的控件库及常用帮助类库</li>
+<li>仿游戏开发途上国</li>
+<li>解析2个热门开源项目</li>
 </ul>
-<h4 id="5-_Hexo初始化及操作">5. Hexo初始化及操作</h4><p>修改站点的_config.yml文件<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:#&#20462;&#25913;_config.yml&#20013;&#20851;&#20110;deploy&#30340;&#37197;&#32622;&#10;  type: git&#10;  repository: https://github.com/ShellyDong/shellydong.github.io.git&#10;  branch: master</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init <span class="comment">#初始化Hexo</span></span><br><span class="line">$ npm install </span><br><span class="line">$ hexo server <span class="comment">#默认端口为4000</span></span><br><span class="line">$ hexo new <span class="string">"My New Post"</span> <span class="comment">#新建博客</span></span><br><span class="line">$ hexo generate <span class="comment">#产生静态页面</span></span><br><span class="line">$ npm install hexo-deployer-git --save  <span class="comment">#安装deployer</span></span><br><span class="line">$ hexo deploy -g  <span class="comment">#重新为变化项产生静态页面后再deploy</span></span><br></pre></td></tr></table></figure>
-<h4 id="6-_主题设置">6. 主题设置</h4><p>我使用的是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next</a><br><img src="https://camo.githubusercontent.com/0180dd24aad9b84b3ac176f7df44a53da068bac7/687474703a2f2f696973736e616e2e636f6d2f6e657875732f6e6578742f6465736b746f702d707265766965772e706e67" alt="Next预览"></p>
-<h6 id="安装">安装</h6><p>从 GitHub 下载<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
-<p>更改站点 <code>_config.yml</code> 中的 <code>theme</code> 字段设置为 <code>next</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure></p>
-<h6 id="更新">更新</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+</li>
+<li>学习两门公开课</li>
+<li>博文100篇+</li>
+</ul>
+
       
     </div>
 
@@ -207,11 +219,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Blog/"> #Blog </a>
-          
-            <a href="/tags/Git/"> #Git </a>
-          
-            <a href="/tags/Hexo/"> #Hexo </a>
+            <a href="/tags/Plan/"> #Plan </a>
           
         </div>
       
@@ -220,11 +228,11 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/06/24/At-mid-2015/">写在2015年已经过去了一半的时候</a>
-            
           </div>
 
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/06/23/How to build a blog using Hexo & Github/">如何使用Hexo+Github构建博客</a>
             
           </div>
         </div>
@@ -331,7 +339,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#建站流程"><span class="nav-number">1.</span> <span class="nav-text">建站流程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-_安装git"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 安装git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-_安装node-js"><span class="nav-number">1.0.2.</span> <span class="nav-text">2. 安装node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-_安装hexo"><span class="nav-number">1.0.3.</span> <span class="nav-text">3. 安装hexo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-_创建Repository"><span class="nav-number">1.0.4.</span> <span class="nav-text">4. 创建Repository</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#以下方式二选一"><span class="nav-number">1.0.4.0.1.</span> <span class="nav-text">以下方式二选一</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#自定义域名"><span class="nav-number">1.0.4.0.2.</span> <span class="nav-text">自定义域名</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-_Hexo初始化及操作"><span class="nav-number">1.0.5.</span> <span class="nav-text">5. Hexo初始化及操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-_主题设置"><span class="nav-number">1.0.6.</span> <span class="nav-text">6. 主题设置</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#安装"><span class="nav-number">1.0.6.0.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#更新"><span class="nav-number">1.0.6.0.2.</span> <span class="nav-text">更新</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#在年中，回望"><span class="nav-number">1.</span> <span class="nav-text">在年中，回望</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#年终，未为远"><span class="nav-number">2.</span> <span class="nav-text">年终，未为远</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
