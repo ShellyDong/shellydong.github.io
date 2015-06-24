@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2015-06-24T13:50:21.931Z</updated>
+  <updated>2015-06-24T13:57:39.203Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -16,32 +16,9 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2015/06/24/hello-world/"/>
-    <id>http://yoursite.com/2015/06/24/hello-world/</id>
-    <published>2015-06-24T13:28:25.000Z</published>
-    <updated>2015-06-24T13:50:21.931Z</updated>
-    <content type="html"><![CDATA[<p>欢迎来到我的博客！</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>欢迎来到我的博客！</p>
-]]>
-    </summary>
-    
-      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
-    
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
-      <category term="Inbox" scheme="http://yoursite.com/categories/Inbox/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[如何使用Hexo+Github构建博客]]></title>
-    <link href="http://yoursite.com/2015/06/23/New-Post/"/>
-    <id>http://yoursite.com/2015/06/23/New-Post/</id>
+    <link href="http://yoursite.com/2015/06/23/How%20to%20build%20a%20blog%20using%20Hexo%20&%20Github/"/>
+    <id>http://yoursite.com/2015/06/23/How to build a blog using Hexo & Github/</id>
     <published>2015-06-23T14:24:58.000Z</published>
     <updated>2015-06-24T13:57:39.203Z</updated>
     <content type="html"><![CDATA[<p>  终于有自己的博客了，记录一下小窝诞生的过程吧~  </p>
