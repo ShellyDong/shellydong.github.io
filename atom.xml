@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2015-06-28T13:13:01.851Z</updated>
+  <updated>2015-06-28T13:14:40.133Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -20,12 +20,14 @@
     <link href="http://yoursite.com/2015/06/28/When-I-was-one-and-twenty/"/>
     <id>http://yoursite.com/2015/06/28/When-I-was-one-and-twenty/</id>
     <published>2015-06-28T13:02:22.000Z</published>
-    <updated>2015-06-28T13:13:01.851Z</updated>
-    <content type="html"><![CDATA[<p>When I was one-and-twenty<br>        By Alfred Edward Housman<br>When I was one-and-twenty<br>I heard a wise man say,<br>“Give crowns and pounds and guineas<br>But not your heart away;<br>Give pearls away and rubies<br>But keep your fancy free.”<br>But I was one-and-twenty,<br>No use to talk to me.</p>
+    <updated>2015-06-28T13:14:40.133Z</updated>
+    <content type="html"><![CDATA[<p>When I was one-and-twenty<br>    — By Alfred Edward Housman</p>
+<p>When I was one-and-twenty<br>I heard a wise man say,<br>“Give crowns and pounds and guineas<br>But not your heart away;<br>Give pearls away and rubies<br>But keep your fancy free.”<br>But I was one-and-twenty,<br>No use to talk to me.</p>
 <p>When I was one-and-twenty<br>I heard him say again,<br>“The heart out of the bosom<br>Was never given in vain;<br>‘Tis paid with sighs a plenty<br>And sold for endless rue.”<br>And I am two-and-twenty,<br>And oh, ‘tis true, ‘tis true.</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>When I was one-and-twenty<br>        By Alfred Edward Housman<br>When I was one-and-twenty<br>I heard a wise man say,<br>“Give crowns and]]>
+    <![CDATA[<p>When I was one-and-twenty<br>    — By Alfred Edward Housman</p>
+<p>When I was one-and-twenty<br>I heard a wise man say,<br>“Give crowns a]]>
     </summary>
     
       <category term="Poems" scheme="http://yoursite.com/tags/Poems/"/>
