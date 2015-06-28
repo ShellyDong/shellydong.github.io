@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2015-06-28T14:01:46.240Z</updated>
+  <updated>2015-06-28T14:08:01.471Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -20,8 +20,8 @@
     <link href="http://yoursite.com/2015/06/28/When-I-was-one-and-twenty/"/>
     <id>http://yoursite.com/2015/06/28/When-I-was-one-and-twenty/</id>
     <published>2015-06-28T13:02:22.000Z</published>
-    <updated>2015-06-28T14:01:46.240Z</updated>
-    <content type="html"><![CDATA[<h2 id="When_I_was_one-and-twenty_by_A-E-_Housman">When I was one-and-twenty  by A.E. Housman</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">When I was <span class="keyword">one</span>-and-twenty</span><br><span class="line">I heard a wise <span class="keyword">man</span> say,</span><br><span class="line">"Give crowns and pounds and guineas</span><br><span class="line">But not your heart away;</span><br><span class="line">Give pearls away and rubies</span><br><span class="line">But <span class="keyword">keep</span> your fancy free."</span><br><span class="line">But I was <span class="keyword">one</span>-and-twenty,</span><br><span class="line"><span class="keyword">No</span> <span class="keyword">use</span> to talk to me.</span><br><span class="line"></span><br><span class="line">When I was <span class="keyword">one</span>-and-twenty</span><br><span class="line">I heard him say again,</span><br><span class="line">"The heart <span class="keyword">out</span> of the bosom</span><br><span class="line">Was never given <span class="keyword">in</span> vain;</span><br><span class="line">'<span class="keyword">Tis</span> paid with sighs a plenty</span><br><span class="line">And sold <span class="keyword">for</span> endless rue."</span><br><span class="line">And I am <span class="keyword">two</span>-and-twenty,</span><br><span class="line">And oh, '<span class="keyword">tis</span> true, '<span class="keyword">tis</span> true.</span><br></pre></td></tr></table></figure>
+    <updated>2015-06-28T14:08:01.471Z</updated>
+    <content type="html"><![CDATA[<h2 id="When_I_was_one-and-twenty_by_A-E-_Housman">When I was one-and-twenty  by A.E. Housman</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">When I was one-and-twenty</span><br><span class="line">I heard a wise man say,</span><br><span class="line"><span class="string">"Give crowns and pounds and guineas</span><br><span class="line">But not your heart away;</span><br><span class="line">Give pearls away and rubies</span><br><span class="line">But keep your fancy free."</span></span><br><span class="line">But I was one-and-twenty,</span><br><span class="line">No use to talk to me.</span><br><span class="line"></span><br><span class="line">When I was one-and-twenty</span><br><span class="line">I heard him say again,</span><br><span class="line"><span class="string">"The heart out of the bosom</span><br><span class="line">Was never given in vain;</span><br><span class="line">'Tis paid with sighs a plenty</span><br><span class="line">And sold for endless rue."</span></span><br><span class="line">And I am two-and-twenty,</span><br><span class="line">And oh, <span class="string">'tis true, '</span>tis true.</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p> 第一次读到这首诗是在2014年生日过后不久，喜欢上它其实不需要别的理由，我几乎是用对音乐相同的审美来对待诗，韵和律的和谐足以。 </p>
 <p> 爱情相关的话题对于我这二十来岁的年纪，充满了致命的吸引力。 爱情，曾经是每一个少年人心中多么瑰丽而又带着一丝幽秘的梦境，年少时曾对它寄予过如此多的期许，却被现实一一回以重击。 于是在这首悲观的诗歌面前，能得到共情的体验，或许也能隔着时空与Housman举杯，自我解嘲似地一笑：“哈，老Housman，原来你也阴沟里翻过船啊！咱们一起落水，同乐，幸甚！~”</p>
@@ -29,7 +29,7 @@
 </blockquote>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="When_I_was_one-and-twenty_by_A-E-_Housman">When I was one-and-twenty  by A.E. Housman</h2><figure class="highlight stata"><table><tr]]>
+    <![CDATA[<h2 id="When_I_was_one-and-twenty_by_A-E-_Housman">When I was one-and-twenty  by A.E. Housman</h2><figure class="highlight bash"><table><tr>]]>
     </summary>
     
       <category term="Poems" scheme="http://yoursite.com/tags/Poems/"/>
