@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2015-07-13T13:59:48.572Z</updated>
+  <updated>2015-07-13T14:08:56.547Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -20,8 +20,8 @@
     <link href="http://yoursite.com/2015/07/13/How-to-get-page-view-using-Umeng/"/>
     <id>http://yoursite.com/2015/07/13/How-to-get-page-view-using-Umeng/</id>
     <published>2015-07-13T09:46:22.000Z</published>
-    <updated>2015-07-13T13:59:48.572Z</updated>
-    <content type="html"><![CDATA[<h2 id="1-_集成准备">1.  集成准备</h2><h3 id="1-1_获得Appkey">1.1  获得Appkey</h3><p>首先需要到友盟官网注册并且添加新应用，获得Appkey<br>不同平台的应用禁止使用相同的Appkey，友盟后台的应用名与实际应用名和包名无关，建议命名为“应用名+平台”。</p>
+    <updated>2015-07-13T14:08:56.547Z</updated>
+    <content type="html"><![CDATA[<h2 id="1-_集成准备">1.  集成准备</h2><h3 id="1-1_获得Appkey">1.1  获得Appkey</h3><p>首先需要到友盟官网注册并且添加新应用，获得Appkey<br>不同平台的应用禁止使用相同的Appkey，友盟后台的应用名与实际应用名和包名无关，建议命名为“应用名+平台”。<br><a id="more"></a></p>
 <h3 id="1-2_下载SDK">1.2  下载SDK</h3><h3 id="1-3_导入SDK">1.3  导入SDK</h3><p>将下载包中的libs 文件夹合并到本地工程libs子目录下；</p>
 <h2 id="2-_基本功能集成">2.  基本功能集成</h2><h3 id="2-1_配置manifest">2.1  配置manifest</h3><p>manifest的配置主要包括添加权限，填写Appkey和填写渠道id三部分，代码示例如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">manifest……</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-sdk</span> <span class="attribute">android:minSdkVersion</span>=<span class="value">"4"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-sdk</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.ACCESS_NETWORK_STATE"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.ACCESS_WIFI_STATE"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.INTERNET"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.READ_PHONE_STATE"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">application</span> ……&gt;</span></span><br><span class="line">……</span><br><span class="line"><span class="tag">&lt;<span class="title">activity</span> ……/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta-data</span> <span class="attribute">android:value</span>=<span class="value">"YOUR_APP_KEY"</span> <span class="attribute">android:name</span>=<span class="value">"UMENG_APPKEY"</span>&gt;</span><span class="tag">&lt;/<span class="title">meta-data</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta-data</span> <span class="attribute">android:value</span>=<span class="value">"Channel ID"</span> <span class="attribute">android:name</span>=<span class="value">"UMENG_CHANNEL"</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">application</span>&gt;</span>    </span><br><span class="line"><span class="tag">&lt;/<span class="title">manifest</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <h3 id="2-2_session的统计">2.2  session的统计</h3><p>在每个Activity的onResume方法中调用 MobclickAgent.onResume(Context), onPause方法中调用 MobclickAgent.onPause(Context)</p>
@@ -52,7 +52,8 @@
 </blockquote>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="1-_集成准备">1.  集成准备</h2><h3 id="1-1_获得Appkey">1.1  获得Appkey</h3><p>首先需要到友盟官网注册并且添加新应用，获得Appkey<br>不同平台的应用禁止使用相同的Appkey，友盟后台的应用名与实际应用名和]]>
+    <![CDATA[<h2 id="1-_集成准备">1.  集成准备</h2><h3 id="1-1_获得Appkey">1.1  获得Appkey</h3><p>首先需要到友盟官网注册并且添加新应用，获得Appkey<br>不同平台的应用禁止使用相同的Appkey，友盟后台的应用名与实际应用名和包名无关，建议命名为“应用名+平台”。<br>]]>
+    
     </summary>
     
       <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
@@ -296,7 +297,7 @@
     <link href="http://yoursite.com/2015/06/28/When-I-was-one-and-twenty/"/>
     <id>http://yoursite.com/2015/06/28/When-I-was-one-and-twenty/</id>
     <published>2015-06-28T13:02:22.000Z</published>
-    <updated>2015-07-02T13:52:59.984Z</updated>
+    <updated>2015-07-13T14:09:18.710Z</updated>
     <content type="html"><![CDATA[<pre><code>When I was <span class="keyword">one</span>-and-twenty
 I heard a wise <span class="keyword">man</span> say,
 "Give crowns and pounds and guineas
@@ -305,6 +306,8 @@ Give pearls away and rubies
 But <span class="keyword">keep</span> your fancy free."
 But I was <span class="keyword">one</span>-and-twenty,
 <span class="keyword">No</span> <span class="keyword">use</span> to talk to me.
+
+&lt;!--<span class="keyword">more</span>--&gt;
 
 When I was <span class="keyword">one</span>-and-twenty
 I heard him say again,
@@ -335,10 +338,9 @@ I heard a wise <span class="keyword">man</span> say,
     <link href="http://yoursite.com/2015/06/24/At-mid-2015/"/>
     <id>http://yoursite.com/2015/06/24/At-mid-2015/</id>
     <published>2015-06-24T14:05:38.000Z</published>
-    <updated>2015-06-28T13:17:14.184Z</updated>
+    <updated>2015-07-13T14:08:38.762Z</updated>
     <content type="html"><![CDATA[<p><img src="http://society.yunnan.cn/images/attachement/jpg/site2/20120817/001cc435601d11985c4b0f.jpg" alt=""></p>
-<h2 id="在年中，回望">在年中，回望</h2><p>又是半年过去。</p>
-<p>这半年从武汉到广州，从.NET到Android，可以用动荡来形容。所幸随着时间的流逝，一切渐渐恢复平静。原本计划在这半年里要做的事情都被打乱，计划赶不上变化，也给我带来了一个新的课题，如何在动荡中保持计划的平稳进行。人生总是充满了不期而至的约会，我们要如何才能把握自己的节奏。我想答案只有一个：早起。在一天开始之前便结束计划中要做的事情，剩下的时间再留给琐碎的生活吧。</p>
+<h2 id="在年中，回望">在年中，回望</h2><p>又是半年过去。<br><a id="more"></a><br>这半年从武汉到广州，从.NET到Android，可以用动荡来形容。所幸随着时间的流逝，一切渐渐恢复平静。原本计划在这半年里要做的事情都被打乱，计划赶不上变化，也给我带来了一个新的课题，如何在动荡中保持计划的平稳进行。人生总是充满了不期而至的约会，我们要如何才能把握自己的节奏。我想答案只有一个：早起。在一天开始之前便结束计划中要做的事情，剩下的时间再留给琐碎的生活吧。</p>
 <p>既是回望，那便不能不说说这半年来的收获了。</p>
 <ul>
 <li>豆瓣已读达到100</li>
@@ -364,7 +366,8 @@ I heard a wise <span class="keyword">man</span> say,
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="http://society.yunnan.cn/images/attachement/jpg/site2/20120817/001cc435601d11985c4b0f.jpg" alt=""></p>
-<h2 id="在年中，回望">在年中，回望</]]>
+<h2 id="在年中，回望">在年中，回望</h2><p>又是半年过去。<br>]]>
+    
     </summary>
     
       <category term="Plan" scheme="http://yoursite.com/tags/Plan/"/>
@@ -378,8 +381,9 @@ I heard a wise <span class="keyword">man</span> say,
     <link href="http://yoursite.com/2015/06/23/How%20to%20build%20a%20blog%20using%20Hexo%20&%20Github/"/>
     <id>http://yoursite.com/2015/06/23/How to build a blog using Hexo & Github/</id>
     <published>2015-06-23T14:24:58.000Z</published>
-    <updated>2015-06-24T13:57:39.203Z</updated>
-    <content type="html"><![CDATA[<p>  终于有自己的博客了，记录一下小窝诞生的过程吧~  </p>
+    <updated>2015-07-13T14:08:34.244Z</updated>
+    <content type="html"><![CDATA[<p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>
+<a id="more"></a> 
 <h2 id="建站流程">建站流程</h2><h4 id="1-_安装git">1. 安装git</h4><h4 id="2-_安装node-js">2. 安装<a href="https://nodejs.org/download/" target="_blank" rel="external">node.js</a></h4><h4 id="3-_安装hexo">3. 安装hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure>
 <h4 id="4-_创建Repository">4. 创建Repository</h4><h6 id="以下方式二选一">以下方式二选一</h6><ul>
 <li>建立一个 username.github.com 的repo，username为你的github用户名，每个用户只能有一个这样的repo，则直接发布到master分支即可。</li>
@@ -394,8 +398,8 @@ I heard a wise <span class="keyword">man</span> say,
 <p>更改站点 <code>_config.yml</code> 中的 <code>theme</code> 字段设置为 <code>next</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure></p>
 <h6 id="更新">更新</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>]]></content>
     <summary type="html">
-    <![CDATA[<p>  终于有自己的博客了，记录一下小窝诞生的过程吧~  </p>
-<h2 id="建站流程">建站流程</h2><h4 id="1-_安装git">1. 安装git</h4><h4 id="2-_安装node-js">2. 安装<a href="https://nodejs.]]>
+    <![CDATA[<p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>]]>
+    
     </summary>
     
       <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
