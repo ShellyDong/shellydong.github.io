@@ -22,7 +22,7 @@
 
 
 
-  <meta name="keywords" content="Blog,Git,Hexo," />
+  <meta name="keywords" content="Review," />
 
 
 
@@ -47,7 +47,7 @@
 
 
 
-  <title> 如何使用Hexo+Github构建博客 // Shelly's Blog </title>
+  <title> 读书清单回顾@2015年 // Shelly's Blog </title>
 </head>
 
 <body>
@@ -150,7 +150,7 @@
           
           
             
-              如何使用Hexo+Github构建博客
+              读书清单回顾@2015年
             
           
         </h1>
@@ -158,7 +158,7 @@
 
       <div class="post-meta">
         <span class="post-time">
-          Veröffentlicht am 2015-06-23
+          Veröffentlicht am 2015-07-15
         </span>
 
         
@@ -186,21 +186,18 @@
       
 
       
-        <p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>
-<a id="more"></a> 
-<h2 id="建站流程">建站流程</h2><h4 id="1-_安装git">1. 安装git</h4><h4 id="2-_安装node-js">2. 安装<a href="https://nodejs.org/download/" target="_blank" rel="external">node.js</a></h4><h4 id="3-_安装hexo">3. 安装hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure>
-<h4 id="4-_创建Repository">4. 创建Repository</h4><h6 id="以下方式二选一">以下方式二选一</h6><ul>
-<li>建立一个 username.github.com 的repo，username为你的github用户名，每个用户只能有一个这样的repo，则直接发布到master分支即可。</li>
-<li>建立一个项目repo，发布的branch是gh-pages.<h6 id="自定义域名">自定义域名</h6></li>
-<li>如果你用自定义域名的话，github pages需要你建立一个名称为CNAME的文件，里面放入你的域名地址。如我的CNAME文件.</li>
-<li>因为每次deploy的时候hexo都会重新生成文件，所以直接加在github是不好使的，这个文件需要放在 hexo folder/source文件夹根目录下。</li>
-</ul>
-<h4 id="5-_Hexo初始化及操作">5. Hexo初始化及操作</h4><p>修改站点的_config.yml文件<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:#&#20462;&#25913;_config.yml&#20013;&#20851;&#20110;deploy&#30340;&#37197;&#32622;&#10;  type: git&#10;  repository: https://github.com/ShellyDong/shellydong.github.io.git&#10;  branch: master</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init <span class="comment">#初始化Hexo</span></span><br><span class="line">$ npm install </span><br><span class="line">$ hexo server <span class="comment">#默认端口为4000</span></span><br><span class="line">$ hexo new <span class="string">"My New Post"</span> <span class="comment">#新建博客</span></span><br><span class="line">$ hexo generate <span class="comment">#产生静态页面</span></span><br><span class="line">$ npm install hexo-deployer-git --save  <span class="comment">#安装deployer</span></span><br><span class="line">$ hexo deploy -g  <span class="comment">#重新为变化项产生静态页面后再deploy</span></span><br></pre></td></tr></table></figure>
-<h4 id="6-_主题设置">6. 主题设置</h4><p>我使用的是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next</a><br><img src="https://camo.githubusercontent.com/0180dd24aad9b84b3ac176f7df44a53da068bac7/687474703a2f2f696973736e616e2e636f6d2f6e657875732f6e6578742f6465736b746f702d707265766965772e706e67" alt="Next预览"></p>
-<h6 id="安装">安装</h6><p>从 GitHub 下载<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
-<p>更改站点 <code>_config.yml</code> 中的 <code>theme</code> 字段设置为 <code>next</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure></p>
-<h6 id="更新">更新</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+        <p>到今天为止，豆瓣上的已读总算凑到了102本。<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/20150715_douban_read.jpg" alt=""><br><a id="more"></a><br>阅读的内容并不仅止于此。年少时最喜欢的是期刊，尤其钟爱武侠，是《今古传奇》的粉丝。工作后由于程序猿这份工的特殊性喜欢上了RSS。最开始是在Google Reader根据周金根分享的OPML删删改改定制了一份属于自己的清单，Google Reader服务关闭后，先是尝试了Feedly，感觉还不错，后来实在翻墙困难，只能在每台电脑上安装FeedDemon。 OPML文件后来也翻新了几次，曾经很喜欢的一些Blog都断更了，实在可惜。<br>我最近的OPML文件，有兴趣的同学可以点<a href="http://pan.baidu.com/s/1c0CqXUS" target="_blank" rel="external">这里</a>下载。</p>
+<p>接下来就随便列一列今年看过的那些书吧。</p>
+<p><img src="http://img4.douban.com/lpic/s6862076.jpg" alt=""><br>开年的时候，因为决定要换工作到移动开发阵营，通过这本《疯狂Java讲义》重新梳理了一遍Java的基础知识。</p>
+<p><img src="http://img3.douban.com/lpic/s4249614.jpg" alt=""><br>大约是还没有过为赋新词强说愁的年纪，过年的时候进入了某种关系摧毁的阶段，为了引导积极情绪，保持身心健康，这本书我反反复复看了好几遍。Everybody has blue days, everybody deserves a <em>The Blue Day Book</em>。这是一本以后一定要给小孩子买的书，希望那些忧伤的日子因为这本书变得不那么难熬。</p>
+<p><img src="http://img3.douban.com/lpic/s1800355.jpg" alt=""><br>接下来，大脑自行切入反省模式，需要反思一下造成这种局面的原因。因为旧年数次在火车上围观黄老先生的《历代政治得失》和《国史大纲》颇得其乐，这一次便仍是选择了一本他老人家的名作《万历十五年》。对万历皇帝、张居正、申时行、海瑞、戚继光、李贽这些人的初步印象，均从此书得来，而且此书愈读愈心惊，虽然说不上来具体的原因，但对于历史重复上演莫名心生出来一些恐惧。</p>
+<p><img src="http://img4.douban.com/lpic/s1436379.jpg" alt=""><br>这是今年读到的最惊喜的一本，《心是孤独的猎手》。因为去年刚好读过蒋勋的《孤独六讲》，对于孤独尤其是孤独的美感的认知，已经入过门。但是这一本书用另外一种意想不到的表现手法来呈现孤独，而且可能由于主角是哑巴的缘故，视觉聚焦效果好到令人惊叹。读完这本书后，我开始相信每一个人都是绝对孤独。</p>
+<p><img src="http://img3.douban.com/lpic/s2121681.jpg" alt=""><br><img src="http://img4.douban.com/lpic/s6252848.jpg" alt=""><br><img src="http://img3.douban.com/lpic/s4339900.jpg" alt=""><br><img src="http://img3.douban.com/lpic/s7082600.jpg" alt=""><br><img src="http://img4.douban.com/lpic/s4533799.jpg" alt=""><br><img src="http://img4.douban.com/lpic/s6641009.jpg" alt=""><br><img src="http://img4.douban.com/lpic/s4240009.jpg" alt=""><br><img src="http://img3.douban.com/lpic/s26813160.jpg" alt=""><br><img src="http://img3.douban.com/lpic/s10478970.jpg" alt=""><br>经过上一本书的洗礼，我进入对于情感这一事物认知摧毁再重建的阶段，这一阶段完成之前情商低得可怕。只能试图借着读书这件事情麻痹自己，让自己不要陷得更深。因此快速浏览终结了这些看了很久却一直没能看完的“著述”。</p>
+<p><img src="http://img4.douban.com/lpic/s3993878.jpg" alt=""><br>等我醒过神来的时候，已经在看这一本书了，龙应台应该是我近年最喜爱的作家了，一本《野火集》，一本《目送》，都是一口气读完，但是最喜欢的，可能还是《大江大海》。</p>
+<p><img src="http://img3.douban.com/lpic/s3679561.jpg" alt=""><br>这一本诗集只用了很短的时间就翻完，不知道是翻译的问题还是其他，读完还是无法感知到诗人的想法，有一丝挫败。打算留待几年后再读一次。</p>
+<p><img src="http://img3.douban.com/lpic/s27226695.jpg" alt=""><br>这一本书其实已经读过几遍，但是每一次读都感觉收获颇丰。由于已经为它专门写过一篇读书笔记，这里就不再赘述。</p>
+<p><img src="http://img3.douban.com/lpic/s4401800.jpg" alt=""><br>看这本书完全是因为一位朋友强烈向我推荐冯唐，我似乎已经过了读这个的年纪，除了感受了一把男性视角的青春外，似乎再无所获。</p>
+
       
     </div>
 
@@ -208,11 +205,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Blog/"> #Blog </a>
-          
-            <a href="/tags/Git/"> #Git </a>
-          
-            <a href="/tags/Hexo/"> #Hexo </a>
+            <a href="/tags/Review/"> #Review </a>
           
         </div>
       
@@ -221,11 +214,11 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/06/24/At-mid-2015/">写在2015年已经过去了一半的时候</a>
-            
           </div>
 
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/07/14/Reading-Notes-of-Comprehensive-Mirror-for-Aid-in-Government-Take-1/">读书笔记之资治通鉴·卷一 ——三家分晋，豫让复仇，魏文侯礼贤下士</a>
             
           </div>
         </div>
@@ -332,7 +325,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#建站流程"><span class="nav-number">1.</span> <span class="nav-text">建站流程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-_安装git"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 安装git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-_安装node-js"><span class="nav-number">1.0.2.</span> <span class="nav-text">2. 安装node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-_安装hexo"><span class="nav-number">1.0.3.</span> <span class="nav-text">3. 安装hexo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-_创建Repository"><span class="nav-number">1.0.4.</span> <span class="nav-text">4. 创建Repository</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#以下方式二选一"><span class="nav-number">1.0.4.0.1.</span> <span class="nav-text">以下方式二选一</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#自定义域名"><span class="nav-number">1.0.4.0.2.</span> <span class="nav-text">自定义域名</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-_Hexo初始化及操作"><span class="nav-number">1.0.5.</span> <span class="nav-text">5. Hexo初始化及操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-_主题设置"><span class="nav-number">1.0.6.</span> <span class="nav-text">6. 主题设置</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#安装"><span class="nav-number">1.0.6.0.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#更新"><span class="nav-number">1.0.6.0.2.</span> <span class="nav-text">更新</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+              <p class="post-toc-empty">Dieser Artikel hat kein Inhaltsverzeichnis</p>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
