@@ -74,7 +74,7 @@
     <link href="http://shellydong.github.io/2015/11/20/How-to-setup-Android-development-environment-on-MacOS/"/>
     <id>http://shellydong.github.io/2015/11/20/How-to-setup-Android-development-environment-on-MacOS/</id>
     <published>2015-11-20T07:40:30.000Z</published>
-    <updated>2015-11-20T08:50:27.222Z</updated>
+    <updated>2015-12-24T13:54:40.144Z</updated>
     <content type="html"><![CDATA[<h3 id="准备安装包">准备安装包</h3><ol>
 <li>由于eclipse使用的是Java 6，因此需要从苹果官网下载<a href="https://support.apple.com/kb/DL1572?locale=zh_CN&amp;viewlocale=zh_CN" target="_blank" rel="external">支持包</a>。</li>
 <li>下载JDK，可以选择从Oracle官网或者<a href="http://www.androiddevtools.cn" target="_blank" rel="external">AndroidDevTools</a>下载，选择Mac OSX的1.8u5版本即可。</li>
@@ -127,7 +127,7 @@
     <link href="http://shellydong.github.io/2015/11/19/How-to-add-environment-variables-on-MacOS/"/>
     <id>http://shellydong.github.io/2015/11/19/How-to-add-environment-variables-on-MacOS/</id>
     <published>2015-11-19T08:38:04.000Z</published>
-    <updated>2015-11-20T07:42:18.044Z</updated>
+    <updated>2015-12-24T13:54:41.961Z</updated>
     <content type="html"><![CDATA[<p>具体步骤如下：</p>
 <ol>
 <li>打开Terminal，输入<code>sudo vim /etc/profile</code>，此时将进入vi编辑界面</li>
@@ -157,7 +157,7 @@
     <link href="http://shellydong.github.io/2015/11/17/Appium-Get-Started/"/>
     <id>http://shellydong.github.io/2015/11/17/Appium-Get-Started/</id>
     <published>2015-11-17T10:24:15.000Z</published>
-    <updated>2015-11-17T10:26:17.550Z</updated>
+    <updated>2015-12-24T13:54:43.879Z</updated>
     <content type="html"><![CDATA[<ol>
 <li>启动程序<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175555.png" alt="启动成功"><a id="more"></a></li>
 <li>设置capabilities<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175634.png" alt="设置参数"></li>
@@ -202,7 +202,7 @@
     <link href="http://shellydong.github.io/2015/11/17/Appium-Develop-Environment-Set-Up/"/>
     <id>http://shellydong.github.io/2015/11/17/Appium-Develop-Environment-Set-Up/</id>
     <published>2015-11-17T09:24:15.000Z</published>
-    <updated>2015-11-17T10:35:40.412Z</updated>
+    <updated>2015-12-24T13:54:44.113Z</updated>
     <content type="html"><![CDATA[<p>Appium目前较流行移动自动化测试框架。</p>
 <h2 id="Windows">Windows</h2><p>安装依赖库</p>
 <ol>
@@ -294,24 +294,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[How to write well]]></title>
-    <link href="http://shellydong.github.io/2015/07/28/How-to-write-well/"/>
-    <id>http://shellydong.github.io/2015/07/28/How-to-write-well/</id>
-    <published>2015-07-28T14:15:38.000Z</published>
-    <updated>2015-07-28T14:15:38.158Z</updated>
-    <content type="html"></content>
-    <summary type="html">
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[读书清单回顾@2015年]]></title>
     <link href="http://shellydong.github.io/2015/07/15/Talk-about-my-reading-list-at-2015/"/>
     <id>http://shellydong.github.io/2015/07/15/Talk-about-my-reading-list-at-2015/</id>
     <published>2015-07-15T10:26:38.000Z</published>
-    <updated>2015-09-10T04:00:34.041Z</updated>
+    <updated>2015-07-27T13:51:00.192Z</updated>
     <content type="html"><![CDATA[<p>到今天为止，豆瓣上的已读总算凑到了102本。<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/20150715_douban_read.jpg" alt=""><br><a id="more"></a><br>阅读的内容并不仅止于此。年少时最喜欢的是期刊，尤其钟爱武侠，是《今古传奇》的粉丝。工作后由于程序猿这份工的特殊性喜欢上了RSS。最开始是在Google Reader根据周金根分享的OPML删删改改定制了一份属于自己的清单，Google Reader服务关闭后，先是尝试了Feedly，感觉还不错，后来实在翻墙困难，只能在每台电脑上安装FeedDemon。 OPML文件后来也翻新了几次，曾经很喜欢的一些Blog都断更了，实在可惜。<br>我最近的OPML文件，有兴趣的同学可以点<a href="http://pan.baidu.com/s/1c0CqXUS" target="_blank" rel="external">这里</a>下载。</p>
 <p>接下来就随便列一列今年看过的那些书吧。</p>
 <p><img src="http://img4.douban.com/lpic/s6862076.jpg" alt=""><br>开年的时候，因为决定要换工作到移动开发阵营，通过这本《疯狂Java讲义》重新梳理了一遍Java的基础知识。</p>
@@ -340,7 +327,7 @@
     <link href="http://shellydong.github.io/2015/07/14/Reading-Notes-of-Comprehensive-Mirror-for-Aid-in-Government-Take-1/"/>
     <id>http://shellydong.github.io/2015/07/14/Reading-Notes-of-Comprehensive-Mirror-for-Aid-in-Government-Take-1/</id>
     <published>2015-07-14T12:40:15.000Z</published>
-    <updated>2015-09-10T06:58:45.493Z</updated>
+    <updated>2015-07-27T13:48:54.972Z</updated>
     <content type="html"><![CDATA[<h2 id="三家分晋">三家分晋</h2><h3 id="智宣子将以瑶为后">智宣子将以瑶为后</h3><blockquote>
 <p>初，智宣子将以瑶为后，智果曰：“不如宵也。瑶之贤于人者五，其不逮者一也。美鬓长大则贤，射御足力则贤，伎艺毕给则贤，巧文辩惠则贤，强毅果敢则贤；如是而甚不仁。夫以其五贤陵人而以不仁行之，其谁能待之？若果立瑶也，智宗必灭。”弗听。智果别族于太史，为辅氏。<br><a id="more"></a><br>当初，晋国的智宣子想以智瑶为继承人，族人智果说：“他不如智宵。智瑶有超越他人的五项长处，只有一项短处。美发高大是长处，精于骑射是长处，才艺双全是长处，能写善辩是长处，坚毅果敢是长处。虽然如此却很不仁厚。如果他以五项长处来制服别人而做不仁不义的恶事，谁能和他和睦相处？要是真的立智瑶为继承人，那么智氏宗族一定灭亡。”智宣子置之不理。智果便向太史请求脱离智族姓氏，另立为辅氏。</p>
 </blockquote>
@@ -397,7 +384,7 @@
     <link href="http://shellydong.github.io/2015/07/13/How-to-get-page-view-using-Umeng/"/>
     <id>http://shellydong.github.io/2015/07/13/How-to-get-page-view-using-Umeng/</id>
     <published>2015-07-13T09:46:22.000Z</published>
-    <updated>2015-07-15T10:24:10.136Z</updated>
+    <updated>2015-07-13T14:08:56.547Z</updated>
     <content type="html"><![CDATA[<h2 id="1-_集成准备">1.  集成准备</h2><h3 id="1-1_获得Appkey">1.1  获得Appkey</h3><p>首先需要到友盟官网注册并且添加新应用，获得Appkey<br>不同平台的应用禁止使用相同的Appkey，友盟后台的应用名与实际应用名和包名无关，建议命名为“应用名+平台”。<br><a id="more"></a></p>
 <h3 id="1-2_下载SDK">1.2  下载SDK</h3><h3 id="1-3_导入SDK">1.3  导入SDK</h3><p>将下载包中的libs 文件夹合并到本地工程libs子目录下；</p>
 <h2 id="2-_基本功能集成">2.  基本功能集成</h2><h3 id="2-1_配置manifest">2.1  配置manifest</h3><p>manifest的配置主要包括添加权限，填写Appkey和填写渠道id三部分，代码示例如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">manifest……</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-sdk</span> <span class="attribute">android:minSdkVersion</span>=<span class="value">"4"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-sdk</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.ACCESS_NETWORK_STATE"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.ACCESS_WIFI_STATE"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.INTERNET"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.READ_PHONE_STATE"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">application</span> ……&gt;</span></span><br><span class="line">……</span><br><span class="line"><span class="tag">&lt;<span class="title">activity</span> ……/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta-data</span> <span class="attribute">android:value</span>=<span class="value">"YOUR_APP_KEY"</span> <span class="attribute">android:name</span>=<span class="value">"UMENG_APPKEY"</span>&gt;</span><span class="tag">&lt;/<span class="title">meta-data</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta-data</span> <span class="attribute">android:value</span>=<span class="value">"Channel ID"</span> <span class="attribute">android:name</span>=<span class="value">"UMENG_CHANNEL"</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">application</span>&gt;</span>    </span><br><span class="line"><span class="tag">&lt;/<span class="title">manifest</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
@@ -446,7 +433,7 @@
     <link href="http://shellydong.github.io/2015/06/30/Reading-Notes-of-Learn-More-Study-Less/"/>
     <id>http://shellydong.github.io/2015/06/30/Reading-Notes-of-Learn-More-Study-Less/</id>
     <published>2015-06-30T12:36:14.000Z</published>
-    <updated>2015-07-15T10:24:09.579Z</updated>
+    <updated>2015-07-13T14:04:40.908Z</updated>
     <content type="html"><![CDATA[<p>第一次知道Scott Young这个人，是在战隼的学习探索，当时Scott刚刚因为12个月学完MIT课程而引发高效学习的热议。出于对其人的好奇，点进了他的博客，了解到他已经关注如何提高学习效率好几年，且已经有一些相关书籍，其中最热门的便是<em>Learn More, Study Less</em>。在我第一次阅读完此书后不久，便有了中文译本《如何高效学习》，于是又看了一遍中文版，随后便束之高阁，并未作任何的练习。</p>
 <p>直到今年因为工作变动，需要短时间内学习大量Android相关知识，自我感觉效率不高，才又想起这本书来。这一次决定实战练习书中提到的种种高效学习的技巧，顺便记录实战的内容、进度和结果，作为参考。<br><a id="more"></a></p>
 <h2 id="读书笔记">读书笔记</h2><h3 id="Part_I:_The_Holistic_Learning_Strategy"><em>Part I: The Holistic Learning Strategy</em></h3><ul>
@@ -674,7 +661,7 @@
     <link href="http://shellydong.github.io/2015/06/28/When-I-was-one-and-twenty/"/>
     <id>http://shellydong.github.io/2015/06/28/When-I-was-one-and-twenty/</id>
     <published>2015-06-28T13:02:22.000Z</published>
-    <updated>2015-07-15T10:24:09.750Z</updated>
+    <updated>2015-07-13T14:13:44.773Z</updated>
     <content type="html"><![CDATA[<pre><code>When I was <span class="keyword">one</span>-and-twenty
 I heard a wise <span class="keyword">man</span> say,
 "Give crowns and pounds and guineas
@@ -730,7 +717,7 @@ And oh, '<span class="keyword">tis</span> true, '<span class="keyword">tis</span
     <link href="http://shellydong.github.io/2015/06/24/At-mid-2015/"/>
     <id>http://shellydong.github.io/2015/06/24/At-mid-2015/</id>
     <published>2015-06-24T14:05:38.000Z</published>
-    <updated>2015-07-15T10:24:10.001Z</updated>
+    <updated>2015-07-13T14:08:38.762Z</updated>
     <content type="html"><![CDATA[<p><img src="http://society.yunnan.cn/images/attachement/jpg/site2/20120817/001cc435601d11985c4b0f.jpg" alt=""></p>
 <h2 id="在年中，回望">在年中，回望</h2><p>又是半年过去。<br><a id="more"></a><br>这半年从武汉到广州，从.NET到Android，可以用动荡来形容。所幸随着时间的流逝，一切渐渐恢复平静。原本计划在这半年里要做的事情都被打乱，计划赶不上变化，也给我带来了一个新的课题，如何在动荡中保持计划的平稳进行。人生总是充满了不期而至的约会，我们要如何才能把握自己的节奏。我想答案只有一个：早起。在一天开始之前便结束计划中要做的事情，剩下的时间再留给琐碎的生活吧。</p>
 <p>既是回望，那便不能不说说这半年来的收获了。</p>
@@ -773,43 +760,7 @@ And oh, '<span class="keyword">tis</span> true, '<span class="keyword">tis</span
     <link href="http://shellydong.github.io/2015/06/23/How-to-build-a-blog-using-Hexo-and-Github/"/>
     <id>http://shellydong.github.io/2015/06/23/How-to-build-a-blog-using-Hexo-and-Github/</id>
     <published>2015-06-23T14:24:58.000Z</published>
-    <updated>2015-07-15T10:24:09.876Z</updated>
-    <content type="html"><![CDATA[<p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>
-<a id="more"></a> 
-<h2 id="建站流程">建站流程</h2><h4 id="1-_安装git">1. 安装git</h4><h4 id="2-_安装node-js">2. 安装<a href="https://nodejs.org/download/" target="_blank" rel="external">node.js</a></h4><h4 id="3-_安装hexo">3. 安装hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure>
-<h4 id="4-_创建Repository">4. 创建Repository</h4><h6 id="以下方式二选一">以下方式二选一</h6><ul>
-<li>建立一个 username.github.com 的repo，username为你的github用户名，每个用户只能有一个这样的repo，则直接发布到master分支即可。</li>
-<li>建立一个项目repo，发布的branch是gh-pages.<h6 id="自定义域名">自定义域名</h6></li>
-<li>如果你用自定义域名的话，github pages需要你建立一个名称为CNAME的文件，里面放入你的域名地址。如我的CNAME文件.</li>
-<li>因为每次deploy的时候hexo都会重新生成文件，所以直接加在github是不好使的，这个文件需要放在 hexo folder/source文件夹根目录下。</li>
-</ul>
-<h4 id="5-_Hexo初始化及操作">5. Hexo初始化及操作</h4><p>修改站点的_config.yml文件<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:#&#20462;&#25913;_config.yml&#20013;&#20851;&#20110;deploy&#30340;&#37197;&#32622;&#10;  type: git&#10;  repository: https://github.com/ShellyDong/shellydong.github.io.git&#10;  branch: master</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init <span class="comment">#初始化Hexo</span></span><br><span class="line">$ npm install </span><br><span class="line">$ hexo server <span class="comment">#默认端口为4000</span></span><br><span class="line">$ hexo new <span class="string">"My New Post"</span> <span class="comment">#新建博客</span></span><br><span class="line">$ hexo generate <span class="comment">#产生静态页面</span></span><br><span class="line">$ npm install hexo-deployer-git --save  <span class="comment">#安装deployer</span></span><br><span class="line">$ hexo deploy -g  <span class="comment">#重新为变化项产生静态页面后再deploy</span></span><br></pre></td></tr></table></figure>
-<h4 id="6-_主题设置">6. 主题设置</h4><p>我使用的是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next</a><br><img src="https://camo.githubusercontent.com/0180dd24aad9b84b3ac176f7df44a53da068bac7/687474703a2f2f696973736e616e2e636f6d2f6e657875732f6e6578742f6465736b746f702d707265766965772e706e67" alt="Next预览"></p>
-<h6 id="安装">安装</h6><p>从 GitHub 下载<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
-<p>更改站点 <code>_config.yml</code> 中的 <code>theme</code> 字段设置为 <code>next</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure></p>
-<h6 id="更新">更新</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>]]></content>
-    <summary type="html">
-    <![CDATA[<p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>]]>
-    
-    </summary>
-    
-      <category term="Blog" scheme="http://shellydong.github.io/tags/Blog/"/>
-    
-      <category term="Git" scheme="http://shellydong.github.io/tags/Git/"/>
-    
-      <category term="Hexo" scheme="http://shellydong.github.io/tags/Hexo/"/>
-    
-      <category term="Inbox" scheme="http://shellydong.github.io/categories/Inbox/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[如何使用Hexo+Github构建博客]]></title>
-    <link href="http://shellydong.github.io/2015/06/23/How%20to%20build%20a%20blog%20using%20Hexo%20&%20Github/"/>
-    <id>http://shellydong.github.io/2015/06/23/How to build a blog using Hexo & Github/</id>
-    <published>2015-06-23T14:24:58.000Z</published>
-    <updated>2015-07-13T14:08:34.244Z</updated>
+    <updated>2015-12-24T13:54:41.135Z</updated>
     <content type="html"><![CDATA[<p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>
 <a id="more"></a> 
 <h2 id="建站流程">建站流程</h2><h4 id="1-_安装git">1. 安装git</h4><h4 id="2-_安装node-js">2. 安装<a href="https://nodejs.org/download/" target="_blank" rel="external">node.js</a></h4><h4 id="3-_安装hexo">3. 安装hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure>
