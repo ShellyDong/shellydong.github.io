@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  
   <title><![CDATA[Shelly's Blog]]></title>
   
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com//"/>
-  <updated>2015-07-27T13:51:00.192Z</updated>
-  <id>http://yoursite.com//</id>
+  <link href="http://shellydong.github.io/"/>
+  <updated>2015-12-24T15:56:58.492Z</updated>
+  <id>http://shellydong.github.io/</id>
   
   <author>
     <name><![CDATA[Shelly Dong]]></name>
@@ -16,11 +15,303 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[写给文科生的Markdown新手教程]]></title>
+    <link href="http://shellydong.github.io/2015/12/24/Markdown-tutorial-for-blogger/"/>
+    <id>http://shellydong.github.io/2015/12/24/Markdown-tutorial-for-blogger/</id>
+    <published>2015-12-24T14:05:24.000Z</published>
+    <updated>2015-12-24T15:56:58.492Z</updated>
+    <content type="html"><![CDATA[<h3 id="如果你关心的是内容以外的东西，可以不用往下看了">如果你关心的是内容以外的东西，可以不用往下看了</h3><p>例如：</p>
+<ol>
+<li>你很注重样式，需要各种图文混排等复杂的排版。</li>
+<li>你需要将文档以非web page的形式输出给客户使用。</li>
+</ol>
+<h3 id="为什么你该试试Markdown？">为什么你该试试Markdown？</h3><ol>
+<li>够酷    </li>
+<li>简单，文本编辑器就可以打开，修改起来非常方便，格式也足够简单、清晰。</li>
+<li>专注，让你可以关注内容本身，而不是样式。不再需要像Word一样不停地点击按钮设置格式。</li>
+<li>易发布，只要站点支持Markdown，你可以轻松地将文档用同样地格式发布到多个站点上。</li>
+<li>易于版本管控，像管控代码版本一样管控文档，任何的增删改都有记录可循，再也不怕因为意外导致文档丢失了。<a id="more"></a>
+</li>
+</ol>
+<h3 id="那要怎么开始呢？">那要怎么开始呢？</h3><ul>
+<li>Step1. 下载<a href="http://markdownpad.com/" target="_blank" rel="external">MarkdownPad2</a>。即时预览，看得到的才有安全感。<br><img src="http://markdownpad.com/img/markdownpad2.png" alt=""></li>
+<li>Step2. 看看语法介绍，然后一步步跟着试一下吧。当然，如果你完全没有耐心，也可以跳过这一步，直接进入下一步尝鲜阶段。<ul>
+<li><a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">简体中文版</a></li>
+<li><a href="http://markdown.tw/" target="_blank" rel="external">繁體中文版</a></li>
+<li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">English</a></li>
+</ul>
+</li>
+<li><p>Step3. 把下面的一段文字复制粘贴到MarkdownPad2中，看看效果是不是和你想象的一样呢？</p>
+  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="header">## 酷酷的骚年都在用Markdown，你呢？ ##</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**重要的事情不止要说三遍，还要加粗！**</span> 这种细细的字体是没有人会在意的。</span><br><span class="line">如果我想换行，这样是不行的。</span><br><span class="line"></span><br><span class="line">空一行才是真的换行，我猜是因为这样才能保持源文件的格式足够清晰。</span><br><span class="line"></span><br><span class="line"><span class="header">### 标题党都喜欢这玩意儿 ###</span></span><br><span class="line"></span><br><span class="line"><span class="header">### 其实没有后面的尾巴我也不会报错的，想偷懒的话就尽情地省略吧</span></span><br><span class="line"></span><br><span class="line"><span class="header">###### 接下来是完美的分割线</span></span><br><span class="line"><span class="horizontal_rule">---</span></span><br><span class="line">你觉得我完美吗？</span><br><span class="line"></span><br><span class="line"><span class="horizontal_rule">---这样就不完美了呢</span></span><br><span class="line"></span><br><span class="line">现在你开始喜欢它了吗？</span><br><span class="line"></span><br><span class="line">多尝试一下快捷键吧:</span><br><span class="line"></span><br><span class="line"><span class="bullet">- </span><span class="strong">**我很粗大**</span> (<span class="code">`Ctrl+B`</span>) </span><br><span class="line"><span class="bullet">- </span><span class="emphasis">*歪歪斜斜*</span> (<span class="code">`Ctrl+I`</span>)</span><br><span class="line"><span class="bullet">- </span>接下来是引用</span><br><span class="line"><span class="code">	&gt; 大家好，我是引用 (`Ctrl+Q`)</span></span><br><span class="line"><span class="bullet">- </span>码农最爱的<span class="code">`代码块（看清楚，我就是代码块了，我可是自带背景色的高端角色哦）`</span> (<span class="code">`Ctrl+K`</span>)</span><br><span class="line"><span class="bullet">- </span>标题 1, 2, 3 (<span class="code">`Ctrl+1`</span>, <span class="code">`Ctrl+2`</span>, <span class="code">`Ctrl+3`</span>)</span><br><span class="line"><span class="bullet">- </span>列表（就好像你看到的这一大块清单） (<span class="code">`Ctrl+U`</span> and <span class="code">`Ctrl+Shift+O`</span>)</span><br><span class="line"></span><br><span class="line"><span class="header">### 链接也是so easy的哦 ###</span></span><br><span class="line"></span><br><span class="line">让我为你打开超级传送门。[<span class="link_label">我就是传送门，点我会去百度哦</span>](<span class="link_url">http://baidu.com</span>) </span><br><span class="line"></span><br><span class="line"><span class="header">### 图片也是轻轻松松 ###</span></span><br><span class="line"></span><br><span class="line">![<span class="link_label">完美的图片呢，不过我写在这里有什么用呢，观众朋友们又看不见。但是作者我需要备注下这个链接指的是哪个该死的图片呀，所以我一般会在这里写上“x年x月x日x地点xxxxx”（xxxxx得是有意义的图片名）</span>](<span class="link_url">http://markdownpad.com/img/markdownpad2.png</span>)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Step4. 快开始写下第一篇自己的Markdown版本博客吧。</p>
+</li>
+</ul>
+<h3 id="所以，你学会了吗？">所以，你学会了吗？</h3>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="如果你关心的是内容以外的东西，可以不用往下看了">如果你关心的是内容以外的东西，可以不用往下看了</h3><p>例如：</p>
+<ol>
+<li>你很注重样式，需要各种图文混排等复杂的排版。</li>
+<li>你需要将文档以非web page的形式输出给客户使用。</li>
+</ol>
+<h3 id="为什么你该试试Markdown？">为什么你该试试Markdown？</h3><ol>
+<li>够酷    </li>
+<li>简单，文本编辑器就可以打开，修改起来非常方便，格式也足够简单、清晰。</li>
+<li>专注，让你可以关注内容本身，而不是样式。不再需要像Word一样不停地点击按钮设置格式。</li>
+<li>易发布，只要站点支持Markdown，你可以轻松地将文档用同样地格式发布到多个站点上。</li>
+<li>易于版本管控，像管控代码版本一样管控文档，任何的增删改都有记录可循，再也不怕因为意外导致文档丢失了。]]>
+    
+    </summary>
+    
+      <category term="Markdown" scheme="http://shellydong.github.io/tags/Markdown/"/>
+    
+      <category term="Inbox" scheme="http://shellydong.github.io/categories/Inbox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[如何在MacOS搭建Android开发环境]]></title>
+    <link href="http://shellydong.github.io/2015/11/20/How-to-setup-Android-development-environment-on-MacOS/"/>
+    <id>http://shellydong.github.io/2015/11/20/How-to-setup-Android-development-environment-on-MacOS/</id>
+    <published>2015-11-20T07:40:30.000Z</published>
+    <updated>2015-11-20T08:50:27.222Z</updated>
+    <content type="html"><![CDATA[<h3 id="准备安装包">准备安装包</h3><ol>
+<li>由于eclipse使用的是Java 6，因此需要从苹果官网下载<a href="https://support.apple.com/kb/DL1572?locale=zh_CN&amp;viewlocale=zh_CN" target="_blank" rel="external">支持包</a>。</li>
+<li>下载JDK，可以选择从Oracle官网或者<a href="http://www.androiddevtools.cn" target="_blank" rel="external">AndroidDevTools</a>下载，选择Mac OSX的1.8u5版本即可。</li>
+<li><p>下载Android SDK，这里我是从<a href="http://www.androiddevtools.cn" target="_blank" rel="external">AndroidDevTools</a>下载ADT Bundle，选择Mac OSX的64位23.0.2即可。</p>
+<a id="more"></a>
+<h3 id="环境变量配置">环境变量配置</h3></li>
+<li><p>查看Java安装路径: <code>/usr/libexec/java_home -V</code><br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151120160216.png" alt=""></p>
+</li>
+<li><p>添加Java环境变量</p>
+<ul>
+<li><p>全局配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /etc/profile</span><br><span class="line"><span class="comment">#配置JAVA_HOME，此处路径根据自己的版本填写</span></span><br><span class="line">JAVA_HOME=<span class="string">"/System/Library/Java/JavaVirtualMachines/1.8.0_05.jdk/Contents/Home/"</span></span><br><span class="line">CLASS_PATH=<span class="string">"<span class="variable">$JAVA_HOME</span>/lib"</span></span><br><span class="line"><span class="comment">#把JAVA添加到到环境变量PATH中</span></span><br><span class="line">PATH=<span class="string">".:<span class="variable">$PATH</span>:<span class="variable">$JAVA_HOME</span>/bin"</span></span><br><span class="line"><span class="comment">#设置tomcat的主目录</span></span><br><span class="line"><span class="comment">#CATALINA_HOME="/usr/local/tomcat"（tomcat需自行提前安装好）</span></span><br><span class="line"><span class="comment">#将JAVA_HOME和CATALINA_HOME设置为环境变量</span></span><br><span class="line"><span class="comment">#export JAVA_HOME CATALINA_HOME</span></span><br><span class="line"><span class="built_in">export</span> JAVA_HOME</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>针对用户配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#进入用户主目录，然后看一下有没有.bash_profile文件</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">ls -all</span><br><span class="line"><span class="comment">#编辑.bash_profile文件(没有则新建，命令touch .bash_profile)</span></span><br><span class="line">vim .bash_profile</span><br><span class="line"><span class="comment">#英文模式下，按一下i键进入编辑模式，输入以下内容，路径部分自己粘贴自己的</span></span><br><span class="line"><span class="built_in">export</span> JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.<span class="number">8.0</span>_05.jdk/Contents/Home</span><br><span class="line"><span class="comment">#输完后，按esc，输入:wq!保存</span></span><br><span class="line"><span class="comment">#source命令使profile立即生效</span></span><br><span class="line"><span class="built_in">source</span> .bash_profile</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>添加Android SDK环境变量</p>
+<ul>
+<li><p>全局配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /etc/profile</span><br><span class="line"><span class="comment">#配置ANDROID_HOME，此处路径根据自己的版本填写</span></span><br><span class="line">ANDROID_HOME=/Users/blue/Downloads/adt-bundle/sdk</span><br><span class="line"><span class="built_in">export</span> ANDROID_HOME</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:<span class="variable">$ANDROID_HOME</span>/tools:<span class="variable">$ANDROID_HOME</span>/platform-tools</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>针对用户配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#进入用户主目录，然后看一下有没有.bash_profile文件</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">ls -all</span><br><span class="line"><span class="comment">#编辑.bash_profile文件(没有则新建，命令touch .bash_profile)</span></span><br><span class="line">vim .bash_profile</span><br><span class="line"><span class="comment">#英文模式下，按一下i键进入编辑模式，输入以下内容，路径部分自己粘贴自己的</span></span><br><span class="line">ANDROID_HOME=/Users/blue/Downloads/adt-bundle/sdk</span><br><span class="line"><span class="built_in">export</span> ANDROID_HOME</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:<span class="variable">$ANDROID_HOME</span>/tools:<span class="variable">$ANDROID_HOME</span>/platform-tools</span><br><span class="line"><span class="comment">#输完后，按esc，输入:wq!保存</span></span><br><span class="line"><span class="comment">#source命令使profile立即生效</span></span><br><span class="line"><span class="built_in">source</span> .bash_profile</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="准备安装包">准备安装包</h3><ol>
+<li>由于eclipse使用的是Java 6，因此需要从苹果官网下载<a href="https://support.apple.com/kb/DL1572?locale=zh_CN&amp;viewlocale=zh_CN">支持包</a>。</li>
+<li>下载JDK，可以选择从Oracle官网或者<a href="http://www.androiddevtools.cn">AndroidDevTools</a>下载，选择Mac OSX的1.8u5版本即可。</li>
+<li><p>下载Android SDK，这里我是从<a href="http://www.androiddevtools.cn">AndroidDevTools</a>下载ADT Bundle，选择Mac OSX的64位23.0.2即可。</p>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://shellydong.github.io/tags/Android/"/>
+    
+      <category term="Apple" scheme="http://shellydong.github.io/tags/Apple/"/>
+    
+      <category term="Mac" scheme="http://shellydong.github.io/tags/Mac/"/>
+    
+      <category term="Apple" scheme="http://shellydong.github.io/categories/Apple/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[如何为MacOS添加新的环境变量]]></title>
+    <link href="http://shellydong.github.io/2015/11/19/How-to-add-environment-variables-on-MacOS/"/>
+    <id>http://shellydong.github.io/2015/11/19/How-to-add-environment-variables-on-MacOS/</id>
+    <published>2015-11-19T08:38:04.000Z</published>
+    <updated>2015-11-20T07:42:18.044Z</updated>
+    <content type="html"><![CDATA[<p>具体步骤如下：</p>
+<ol>
+<li>打开Terminal，输入<code>sudo vim /etc/profile</code>，此时将进入vi编辑界面</li>
+<li>按下[i]键进入Insert模式，插入如下代码<br> <code>ANDROID_HOME=/Users/xxx/desktop/sdk</code></li>
+<li>按Esc键进入Command模式， 输入<code>:wq!</code>保存并强制退出。</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>具体步骤如下：</p>
+<ol>
+<li>打开Terminal，输入<code>sudo vim /etc/profile</code>，此时将进入vi编辑界面</li>
+<li>按下[i]键进入Insert模式，插入如下代码<br> <code>ANDROID_HOME=]]>
+    </summary>
+    
+      <category term="Apple" scheme="http://shellydong.github.io/tags/Apple/"/>
+    
+      <category term="Mac" scheme="http://shellydong.github.io/tags/Mac/"/>
+    
+      <category term="iOS" scheme="http://shellydong.github.io/tags/iOS/"/>
+    
+      <category term="Apple" scheme="http://shellydong.github.io/categories/Apple/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Appium使用指引]]></title>
+    <link href="http://shellydong.github.io/2015/11/17/Appium-Get-Started/"/>
+    <id>http://shellydong.github.io/2015/11/17/Appium-Get-Started/</id>
+    <published>2015-11-17T10:24:15.000Z</published>
+    <updated>2015-11-17T10:26:17.550Z</updated>
+    <content type="html"><![CDATA[<ol>
+<li>启动程序<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175555.png" alt="启动成功"><a id="more"></a></li>
+<li>设置capabilities<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175634.png" alt="设置参数"></li>
+<li>启动Server<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175706.png" alt="启动中"></li>
+<li>启动Inspector<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175831.png" alt="启动中"><br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175848.png" alt="启动成功"></li>
+<li>刷新界面<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175930.png" alt="刷新成功"></li>
+<li><p>开始测试</p>
+<ul>
+<li><p>从Android Studio直接开始测试</p>
+<p><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117180018.png" alt="右键菜单选择测试"></p>
+</li>
+<li><p>使用命令行启动测试</p>
+<p><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117181042.png" alt="启动单个测试"></p>
+</li>
+</ul>
+</li>
+</ol>
+<p>需要注意Appium每一个测试都会清除data &amp; cache，保证各个case之间不会互相干扰。测试完成后会在命令行输出测试结果。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ol>
+<li>启动程序<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/QQ截图20151117175555.png" alt="启动成功">]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://shellydong.github.io/tags/Android/"/>
+    
+      <category term="Appium" scheme="http://shellydong.github.io/tags/Appium/"/>
+    
+      <category term="Automation" scheme="http://shellydong.github.io/tags/Automation/"/>
+    
+      <category term="IOS" scheme="http://shellydong.github.io/tags/IOS/"/>
+    
+      <category term="Test" scheme="http://shellydong.github.io/tags/Test/"/>
+    
+      <category term="Android" scheme="http://shellydong.github.io/categories/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Appium环境搭建]]></title>
+    <link href="http://shellydong.github.io/2015/11/17/Appium-Develop-Environment-Set-Up/"/>
+    <id>http://shellydong.github.io/2015/11/17/Appium-Develop-Environment-Set-Up/</id>
+    <published>2015-11-17T09:24:15.000Z</published>
+    <updated>2015-11-17T10:35:40.412Z</updated>
+    <content type="html"><![CDATA[<p>Appium目前较流行移动自动化测试框架。</p>
+<h2 id="Windows">Windows</h2><p>安装依赖库</p>
+<ol>
+<li>安装 nodejs v0.10 版本及以上，可通过官方的安装程序来安装。<br> 测试安装是否成功：运行cmd，输入node -v <a id="more"></a></li>
+<li><p>安装android的SKD<br> 安装android的sdk包(<a href="http://developer.android.com/sdk/index.html),运行依赖sdk中的" target="_blank" rel="external">http://developer.android.com/sdk/index.html),运行依赖sdk中的</a> ‘android’工具。并确保你安装了Level17或以上的版本api。</p>
+<p> 设置ANDROID_HOME 系统变量为你的 Android SDK 路径，并把tools和platform-tools两个目录加入到系统的 Path路径里。</p>
+<pre><code>变量： ANDROID_HOME
+
+  值： D:\android-sdk
+
+设置： Path
+
+  值： <span class="variable">%ANDROID_HOME</span><span class="variable">%\</span>platform-tools;<span class="variable">%ANDROID_HOME</span><span class="variable">%\</span>tools;
+</code></pre></li>
+<li><p>安装Apache Ant（可选）<br> 安装Apache Ant（<a href="http://ant.apache.org/bindownload.cgi）" target="_blank" rel="external">http://ant.apache.org/bindownload.cgi）</a></p>
+<p> 解压缩文件夹，并把路径加入环境变量。</p>
+<pre><code>变量： ANT_HOME
+
+  值： D:\apache-ant-<span class="number">1</span>.<span class="number">8</span>.<span class="number">2</span>
+
+设置： <span class="built_in">Path</span>
+
+  值： <span class="envvar">%ANT_HOME%</span>\bin 
+</code></pre><p> 测试ant环境安装成功：运行cmd，输入ant，如果没有指定build.xml就会输出：</p>
+<p>  Buildfile: build.xml does not exist!</p>
+<p>  Build failed</p>
+</li>
+<li><p>安装JDK</p>
+<p> 下载解压文件夹 并且设置 M2HOME 和 M2 环境变量，把 M2 环境变量添加到你的系统PATH变量中。 </p>
+<pre><code>变量： JAVA_HOME
+
+  值： C:\Program Files (x86)\Java\jdk1.7.0_01
+
+变量： classpath
+
+  值： <span class="variable">%JAVA_HOME</span><span class="variable">%\</span>lib;
+
+设置： Path
+
+  值： <span class="variable">%JAVA_HOME</span><span class="variable">%\</span>bin;<span class="variable">%JAVA_HOME</span><span class="variable">%\</span>jre\bin;
+</code></pre><p>测试环境安装成功：运行cmd，输入java -version 如果成功则出现java信息。</p>
+</li>
+<li><p>安装Apache Maven<br> 安装Maven（<a href="http://maven.apache.org/download.cgi）" target="_blank" rel="external">http://maven.apache.org/download.cgi）</a></p>
+<p> 下载解压文件夹 并且设置 M2HOME 和 M2 环境变量，把 M2 环境变量添加到你的系统PATH变量中。 </p>
+<pre><code>变量： MAVEN_HOME
+
+  值： D:\apache-maven-<span class="number">3</span>.<span class="number">1</span>.<span class="number">1</span>
+
+设置： <span class="built_in">Path</span>:
+
+  值： <span class="envvar">%MAVEN_HOME%</span>\bin 
+</code></pre><p>测试环境安装成功：运行cmd，输入mvn -v 如果成功则出现maven信息。</p>
+</li>
+</ol>
+<p>Appium提供两种方式进行安装:</p>
+<ul>
+<li>下载 AppiumForWindows，解压后即完成安装，<a href="https://bitbucket.org/appium/appium.app/downloads/" target="_blank" rel="external">下载地址</a></li>
+<li><p>命令行输入相关命令安装</p>
+<p>  <code>运行 npm install -g appium 安装 appium</code></p>
+</li>
+</ul>
+<p>验证 appium：在命令行输入appium-doctor,如果结果如下，证明 环境搭建成功<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/20151117001.png" alt="appium-doctor result"></p>
+<h2 id="Mac_OS_(待后补)">Mac OS (待后补)</h2><h1 id="参考资料">参考资料</h1><ol>
+<li><a href="http://appium.io/" target="_blank" rel="external">Appium官网</a></li>
+<li><a href="https://appium.testerhome.com/" target="_blank" rel="external">TesterHome Appium中文教程</a></li>
+<li><a href="https://github.com/appium/appium" target="_blank" rel="external">Github Appium开源项目代码</a></li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Appium目前较流行移动自动化测试框架。</p>
+<h2 id="Windows">Windows</h2><p>安装依赖库</p>
+<ol>
+<li>安装 nodejs v0.10 版本及以上，可通过官方的安装程序来安装。<br> 测试安装是否成功：运行cmd，输入node -v]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://shellydong.github.io/tags/Android/"/>
+    
+      <category term="Appium" scheme="http://shellydong.github.io/tags/Appium/"/>
+    
+      <category term="Automation" scheme="http://shellydong.github.io/tags/Automation/"/>
+    
+      <category term="IOS" scheme="http://shellydong.github.io/tags/IOS/"/>
+    
+      <category term="Test" scheme="http://shellydong.github.io/tags/Test/"/>
+    
+      <category term="Android" scheme="http://shellydong.github.io/categories/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[How to write well]]></title>
+    <link href="http://shellydong.github.io/2015/07/28/How-to-write-well/"/>
+    <id>http://shellydong.github.io/2015/07/28/How-to-write-well/</id>
+    <published>2015-07-28T14:15:38.000Z</published>
+    <updated>2015-07-28T14:15:38.158Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[读书清单回顾@2015年]]></title>
-    <link href="http://yoursite.com/2015/07/15/Talk-about-my-reading-list-at-2015/"/>
-    <id>http://yoursite.com/2015/07/15/Talk-about-my-reading-list-at-2015/</id>
+    <link href="http://shellydong.github.io/2015/07/15/Talk-about-my-reading-list-at-2015/"/>
+    <id>http://shellydong.github.io/2015/07/15/Talk-about-my-reading-list-at-2015/</id>
     <published>2015-07-15T10:26:38.000Z</published>
-    <updated>2015-07-27T13:51:00.192Z</updated>
+    <updated>2015-09-10T04:00:34.041Z</updated>
     <content type="html"><![CDATA[<p>到今天为止，豆瓣上的已读总算凑到了102本。<br><img src="http://7xkfin.com1.z0.glb.clouddn.com/20150715_douban_read.jpg" alt=""><br><a id="more"></a><br>阅读的内容并不仅止于此。年少时最喜欢的是期刊，尤其钟爱武侠，是《今古传奇》的粉丝。工作后由于程序猿这份工的特殊性喜欢上了RSS。最开始是在Google Reader根据周金根分享的OPML删删改改定制了一份属于自己的清单，Google Reader服务关闭后，先是尝试了Feedly，感觉还不错，后来实在翻墙困难，只能在每台电脑上安装FeedDemon。 OPML文件后来也翻新了几次，曾经很喜欢的一些Blog都断更了，实在可惜。<br>我最近的OPML文件，有兴趣的同学可以点<a href="http://pan.baidu.com/s/1c0CqXUS" target="_blank" rel="external">这里</a>下载。</p>
 <p>接下来就随便列一列今年看过的那些书吧。</p>
 <p><img src="http://img4.douban.com/lpic/s6862076.jpg" alt=""><br>开年的时候，因为决定要换工作到移动开发阵营，通过这本《疯狂Java讲义》重新梳理了一遍Java的基础知识。</p>
@@ -38,18 +329,18 @@
     
     </summary>
     
-      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
+      <category term="Review" scheme="http://shellydong.github.io/tags/Review/"/>
     
-      <category term="Inbox" scheme="http://yoursite.com/categories/Inbox/"/>
+      <category term="Inbox" scheme="http://shellydong.github.io/categories/Inbox/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[读书笔记之资治通鉴·卷一 ——三家分晋，豫让复仇，魏文侯礼贤下士]]></title>
-    <link href="http://yoursite.com/2015/07/14/Reading-Notes-of-Comprehensive-Mirror-for-Aid-in-Government-Take-1/"/>
-    <id>http://yoursite.com/2015/07/14/Reading-Notes-of-Comprehensive-Mirror-for-Aid-in-Government-Take-1/</id>
+    <link href="http://shellydong.github.io/2015/07/14/Reading-Notes-of-Comprehensive-Mirror-for-Aid-in-Government-Take-1/"/>
+    <id>http://shellydong.github.io/2015/07/14/Reading-Notes-of-Comprehensive-Mirror-for-Aid-in-Government-Take-1/</id>
     <published>2015-07-14T12:40:15.000Z</published>
-    <updated>2015-07-27T13:48:54.972Z</updated>
+    <updated>2015-09-10T06:58:45.493Z</updated>
     <content type="html"><![CDATA[<h2 id="三家分晋">三家分晋</h2><h3 id="智宣子将以瑶为后">智宣子将以瑶为后</h3><blockquote>
 <p>初，智宣子将以瑶为后，智果曰：“不如宵也。瑶之贤于人者五，其不逮者一也。美鬓长大则贤，射御足力则贤，伎艺毕给则贤，巧文辩惠则贤，强毅果敢则贤；如是而甚不仁。夫以其五贤陵人而以不仁行之，其谁能待之？若果立瑶也，智宗必灭。”弗听。智果别族于太史，为辅氏。<br><a id="more"></a><br>当初，晋国的智宣子想以智瑶为继承人，族人智果说：“他不如智宵。智瑶有超越他人的五项长处，只有一项短处。美发高大是长处，精于骑射是长处，才艺双全是长处，能写善辩是长处，坚毅果敢是长处。虽然如此却很不仁厚。如果他以五项长处来制服别人而做不仁不义的恶事，谁能和他和睦相处？要是真的立智瑶为继承人，那么智氏宗族一定灭亡。”智宣子置之不理。智果便向太史请求脱离智族姓氏，另立为辅氏。</p>
 </blockquote>
@@ -93,20 +384,20 @@
     
     </summary>
     
-      <category term="History" scheme="http://yoursite.com/tags/History/"/>
+      <category term="History" scheme="http://shellydong.github.io/tags/History/"/>
     
-      <category term="资治通鉴" scheme="http://yoursite.com/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/"/>
+      <category term="资治通鉴" scheme="http://shellydong.github.io/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/"/>
     
-      <category term="Reading Notes" scheme="http://yoursite.com/categories/Reading-Notes/"/>
+      <category term="Reading Notes" scheme="http://shellydong.github.io/categories/Reading-Notes/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Android应用集成友盟页面路径统计]]></title>
-    <link href="http://yoursite.com/2015/07/13/How-to-get-page-view-using-Umeng/"/>
-    <id>http://yoursite.com/2015/07/13/How-to-get-page-view-using-Umeng/</id>
+    <link href="http://shellydong.github.io/2015/07/13/How-to-get-page-view-using-Umeng/"/>
+    <id>http://shellydong.github.io/2015/07/13/How-to-get-page-view-using-Umeng/</id>
     <published>2015-07-13T09:46:22.000Z</published>
-    <updated>2015-07-13T14:08:56.547Z</updated>
+    <updated>2015-07-15T10:24:10.136Z</updated>
     <content type="html"><![CDATA[<h2 id="1-_集成准备">1.  集成准备</h2><h3 id="1-1_获得Appkey">1.1  获得Appkey</h3><p>首先需要到友盟官网注册并且添加新应用，获得Appkey<br>不同平台的应用禁止使用相同的Appkey，友盟后台的应用名与实际应用名和包名无关，建议命名为“应用名+平台”。<br><a id="more"></a></p>
 <h3 id="1-2_下载SDK">1.2  下载SDK</h3><h3 id="1-3_导入SDK">1.3  导入SDK</h3><p>将下载包中的libs 文件夹合并到本地工程libs子目录下；</p>
 <h2 id="2-_基本功能集成">2.  基本功能集成</h2><h3 id="2-1_配置manifest">2.1  配置manifest</h3><p>manifest的配置主要包括添加权限，填写Appkey和填写渠道id三部分，代码示例如下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">manifest……</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-sdk</span> <span class="attribute">android:minSdkVersion</span>=<span class="value">"4"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-sdk</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.ACCESS_NETWORK_STATE"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.ACCESS_WIFI_STATE"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.INTERNET"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.READ_PHONE_STATE"</span>&gt;</span><span class="tag">&lt;/<span class="title">uses-permission</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">application</span> ……&gt;</span></span><br><span class="line">……</span><br><span class="line"><span class="tag">&lt;<span class="title">activity</span> ……/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta-data</span> <span class="attribute">android:value</span>=<span class="value">"YOUR_APP_KEY"</span> <span class="attribute">android:name</span>=<span class="value">"UMENG_APPKEY"</span>&gt;</span><span class="tag">&lt;/<span class="title">meta-data</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta-data</span> <span class="attribute">android:value</span>=<span class="value">"Channel ID"</span> <span class="attribute">android:name</span>=<span class="value">"UMENG_CHANNEL"</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">application</span>&gt;</span>    </span><br><span class="line"><span class="tag">&lt;/<span class="title">manifest</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
@@ -142,20 +433,20 @@
     
     </summary>
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://shellydong.github.io/tags/Android/"/>
     
-      <category term="Umeng" scheme="http://yoursite.com/tags/Umeng/"/>
+      <category term="Umeng" scheme="http://shellydong.github.io/tags/Umeng/"/>
     
-      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+      <category term="Android" scheme="http://shellydong.github.io/categories/Android/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[读书笔记：Learn More, Study Less]]></title>
-    <link href="http://yoursite.com/2015/06/30/Reading-Notes-of-Learn-More-Study-Less/"/>
-    <id>http://yoursite.com/2015/06/30/Reading-Notes-of-Learn-More-Study-Less/</id>
+    <link href="http://shellydong.github.io/2015/06/30/Reading-Notes-of-Learn-More-Study-Less/"/>
+    <id>http://shellydong.github.io/2015/06/30/Reading-Notes-of-Learn-More-Study-Less/</id>
     <published>2015-06-30T12:36:14.000Z</published>
-    <updated>2015-07-13T14:04:40.908Z</updated>
+    <updated>2015-07-15T10:24:09.579Z</updated>
     <content type="html"><![CDATA[<p>第一次知道Scott Young这个人，是在战隼的学习探索，当时Scott刚刚因为12个月学完MIT课程而引发高效学习的热议。出于对其人的好奇，点进了他的博客，了解到他已经关注如何提高学习效率好几年，且已经有一些相关书籍，其中最热门的便是<em>Learn More, Study Less</em>。在我第一次阅读完此书后不久，便有了中文译本《如何高效学习》，于是又看了一遍中文版，随后便束之高阁，并未作任何的练习。</p>
 <p>直到今年因为工作变动，需要短时间内学习大量Android相关知识，自我感觉效率不高，才又想起这本书来。这一次决定实战练习书中提到的种种高效学习的技巧，顺便记录实战的内容、进度和结果，作为参考。<br><a id="more"></a></p>
 <h2 id="读书笔记">读书笔记</h2><h3 id="Part_I:_The_Holistic_Learning_Strategy"><em>Part I: The Holistic Learning Strategy</em></h3><ul>
@@ -370,20 +661,20 @@
     
     </summary>
     
-      <category term="Learn" scheme="http://yoursite.com/tags/Learn/"/>
+      <category term="Learn" scheme="http://shellydong.github.io/tags/Learn/"/>
     
-      <category term="Read" scheme="http://yoursite.com/tags/Read/"/>
+      <category term="Read" scheme="http://shellydong.github.io/tags/Read/"/>
     
-      <category term="Reading Notes" scheme="http://yoursite.com/categories/Reading-Notes/"/>
+      <category term="Reading Notes" scheme="http://shellydong.github.io/categories/Reading-Notes/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[When I was one-and-twenty  by A.E. Housman]]></title>
-    <link href="http://yoursite.com/2015/06/28/When-I-was-one-and-twenty/"/>
-    <id>http://yoursite.com/2015/06/28/When-I-was-one-and-twenty/</id>
+    <link href="http://shellydong.github.io/2015/06/28/When-I-was-one-and-twenty/"/>
+    <id>http://shellydong.github.io/2015/06/28/When-I-was-one-and-twenty/</id>
     <published>2015-06-28T13:02:22.000Z</published>
-    <updated>2015-07-13T14:13:44.773Z</updated>
+    <updated>2015-07-15T10:24:09.750Z</updated>
     <content type="html"><![CDATA[<pre><code>When I was <span class="keyword">one</span>-and-twenty
 I heard a wise <span class="keyword">man</span> say,
 "Give crowns and pounds and guineas
@@ -428,18 +719,18 @@ And oh, '<span class="keyword">tis</span> true, '<span class="keyword">tis</span
     
     </summary>
     
-      <category term="Poems" scheme="http://yoursite.com/tags/Poems/"/>
+      <category term="Poems" scheme="http://shellydong.github.io/tags/Poems/"/>
     
-      <category term="Excerpts" scheme="http://yoursite.com/categories/Excerpts/"/>
+      <category term="Excerpts" scheme="http://shellydong.github.io/categories/Excerpts/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[写在2015年已经过去了一半的时候]]></title>
-    <link href="http://yoursite.com/2015/06/24/At-mid-2015/"/>
-    <id>http://yoursite.com/2015/06/24/At-mid-2015/</id>
+    <link href="http://shellydong.github.io/2015/06/24/At-mid-2015/"/>
+    <id>http://shellydong.github.io/2015/06/24/At-mid-2015/</id>
     <published>2015-06-24T14:05:38.000Z</published>
-    <updated>2015-07-13T14:08:38.762Z</updated>
+    <updated>2015-07-15T10:24:10.001Z</updated>
     <content type="html"><![CDATA[<p><img src="http://society.yunnan.cn/images/attachement/jpg/site2/20120817/001cc435601d11985c4b0f.jpg" alt=""></p>
 <h2 id="在年中，回望">在年中，回望</h2><p>又是半年过去。<br><a id="more"></a><br>这半年从武汉到广州，从.NET到Android，可以用动荡来形容。所幸随着时间的流逝，一切渐渐恢复平静。原本计划在这半年里要做的事情都被打乱，计划赶不上变化，也给我带来了一个新的课题，如何在动荡中保持计划的平稳进行。人生总是充满了不期而至的约会，我们要如何才能把握自己的节奏。我想答案只有一个：早起。在一天开始之前便结束计划中要做的事情，剩下的时间再留给琐碎的生活吧。</p>
 <p>既是回望，那便不能不说说这半年来的收获了。</p>
@@ -471,16 +762,52 @@ And oh, '<span class="keyword">tis</span> true, '<span class="keyword">tis</span
     
     </summary>
     
-      <category term="Plan" scheme="http://yoursite.com/tags/Plan/"/>
+      <category term="Plan" scheme="http://shellydong.github.io/tags/Plan/"/>
     
-      <category term="Inbox" scheme="http://yoursite.com/categories/Inbox/"/>
+      <category term="Inbox" scheme="http://shellydong.github.io/categories/Inbox/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[如何使用Hexo+Github构建博客]]></title>
-    <link href="http://yoursite.com/2015/06/23/How%20to%20build%20a%20blog%20using%20Hexo%20&%20Github/"/>
-    <id>http://yoursite.com/2015/06/23/How to build a blog using Hexo & Github/</id>
+    <link href="http://shellydong.github.io/2015/06/23/How-to-build-a-blog-using-Hexo-and-Github/"/>
+    <id>http://shellydong.github.io/2015/06/23/How-to-build-a-blog-using-Hexo-and-Github/</id>
+    <published>2015-06-23T14:24:58.000Z</published>
+    <updated>2015-07-15T10:24:09.876Z</updated>
+    <content type="html"><![CDATA[<p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>
+<a id="more"></a> 
+<h2 id="建站流程">建站流程</h2><h4 id="1-_安装git">1. 安装git</h4><h4 id="2-_安装node-js">2. 安装<a href="https://nodejs.org/download/" target="_blank" rel="external">node.js</a></h4><h4 id="3-_安装hexo">3. 安装hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure>
+<h4 id="4-_创建Repository">4. 创建Repository</h4><h6 id="以下方式二选一">以下方式二选一</h6><ul>
+<li>建立一个 username.github.com 的repo，username为你的github用户名，每个用户只能有一个这样的repo，则直接发布到master分支即可。</li>
+<li>建立一个项目repo，发布的branch是gh-pages.<h6 id="自定义域名">自定义域名</h6></li>
+<li>如果你用自定义域名的话，github pages需要你建立一个名称为CNAME的文件，里面放入你的域名地址。如我的CNAME文件.</li>
+<li>因为每次deploy的时候hexo都会重新生成文件，所以直接加在github是不好使的，这个文件需要放在 hexo folder/source文件夹根目录下。</li>
+</ul>
+<h4 id="5-_Hexo初始化及操作">5. Hexo初始化及操作</h4><p>修改站点的_config.yml文件<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:#&#20462;&#25913;_config.yml&#20013;&#20851;&#20110;deploy&#30340;&#37197;&#32622;&#10;  type: git&#10;  repository: https://github.com/ShellyDong/shellydong.github.io.git&#10;  branch: master</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init <span class="comment">#初始化Hexo</span></span><br><span class="line">$ npm install </span><br><span class="line">$ hexo server <span class="comment">#默认端口为4000</span></span><br><span class="line">$ hexo new <span class="string">"My New Post"</span> <span class="comment">#新建博客</span></span><br><span class="line">$ hexo generate <span class="comment">#产生静态页面</span></span><br><span class="line">$ npm install hexo-deployer-git --save  <span class="comment">#安装deployer</span></span><br><span class="line">$ hexo deploy -g  <span class="comment">#重新为变化项产生静态页面后再deploy</span></span><br></pre></td></tr></table></figure>
+<h4 id="6-_主题设置">6. 主题设置</h4><p>我使用的是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next</a><br><img src="https://camo.githubusercontent.com/0180dd24aad9b84b3ac176f7df44a53da068bac7/687474703a2f2f696973736e616e2e636f6d2f6e657875732f6e6578742f6465736b746f702d707265766965772e706e67" alt="Next预览"></p>
+<h6 id="安装">安装</h6><p>从 GitHub 下载<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
+<p>更改站点 <code>_config.yml</code> 中的 <code>theme</code> 字段设置为 <code>next</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure></p>
+<h6 id="更新">更新</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>]]></content>
+    <summary type="html">
+    <![CDATA[<p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>]]>
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://shellydong.github.io/tags/Blog/"/>
+    
+      <category term="Git" scheme="http://shellydong.github.io/tags/Git/"/>
+    
+      <category term="Hexo" scheme="http://shellydong.github.io/tags/Hexo/"/>
+    
+      <category term="Inbox" scheme="http://shellydong.github.io/categories/Inbox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[如何使用Hexo+Github构建博客]]></title>
+    <link href="http://shellydong.github.io/2015/06/23/How%20to%20build%20a%20blog%20using%20Hexo%20&%20Github/"/>
+    <id>http://shellydong.github.io/2015/06/23/How to build a blog using Hexo & Github/</id>
     <published>2015-06-23T14:24:58.000Z</published>
     <updated>2015-07-13T14:08:34.244Z</updated>
     <content type="html"><![CDATA[<p>终于有自己的博客了，记录一下小窝诞生的过程吧~</p>
@@ -503,13 +830,13 @@ And oh, '<span class="keyword">tis</span> true, '<span class="keyword">tis</span
     
     </summary>
     
-      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+      <category term="Blog" scheme="http://shellydong.github.io/tags/Blog/"/>
     
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+      <category term="Git" scheme="http://shellydong.github.io/tags/Git/"/>
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://shellydong.github.io/tags/Hexo/"/>
     
-      <category term="Inbox" scheme="http://yoursite.com/categories/Inbox/"/>
+      <category term="Inbox" scheme="http://shellydong.github.io/categories/Inbox/"/>
     
   </entry>
   
