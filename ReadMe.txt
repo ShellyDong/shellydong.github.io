@@ -1,9 +1,9 @@
-¸ü»»µçÄÔºóÖØĞÂÀ­È¥hexoµÄ²½Öè£º
+ï»¿æ›´æ¢ç”µè„‘åé‡æ–°æ‹‰å»hexoçš„æ­¥éª¤ï¼š
 
-1.Ê¹ÓÃÒÔÏÂÃüÁîÀ­È¡hexo·ÖÖ§´úÂë
+1.ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤æ‹‰å–hexoåˆ†æ”¯ä»£ç 
   git clone -b hexo git@github.com:ShellyDong/shellydong.github.io.git
 
-2.powershell½øÈë±¾µØrepoÄ¿Â¼£¬ÒÀ´Î°²×°ÒÔÏÂhexo¼°²å¼ş
+2.powershellè¿›å…¥æœ¬åœ°repoç›®å½•ï¼Œä¾æ¬¡å®‰è£…ä»¥ä¸‹hexoåŠæ’ä»¶
   npm install hexo-cli -g
   npm install
   npm install hexo-deployer-git --save
@@ -11,3 +11,15 @@
 3.hexo clean
   hexo g
   hexo s
+
+4.æ–°å»ºblog
+  hexo new draft "your title"
+  hexo g --draft
+  hexo publish post "your title"
+
+
+5.ä¿®æ”¹åæäº¤æºç åˆ°hexoåˆ†æ”¯
+  git checkout
+  git add --all
+  git commit -m "commit note"
+  git push --set-upstream origin hexo
