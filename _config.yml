@@ -42,7 +42,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace:
 
 # Category & Tag
@@ -66,9 +66,9 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: next
-plugins: 
-- hexo-generator-feed
-- hexo-generator-sitemap
+#plugins: 
+#- hexo-generator-feed
+#- hexo-generator-sitemap
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -82,8 +82,8 @@ sitemap:
   path: sitemap.xml
 
 #Feed Atom
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
+#feed:
+#  type: atom
+#  path: atom.xml
+#  limit: 20
+#  hub:
